@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C699400C1427146D3F87E534 /* Pods_Binet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A4760D8C6D108B67554E6 /* Pods_Binet.framework */; };
+		DD53EBCF2295765100A93C4B /* NewEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD53EBCE2295765100A93C4B /* NewEntryViewController.swift */; };
+		DD53EBD12295993F00A93C4B /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD53EBD02295993F00A93C4B /* EntryViewController.swift */; };
 		DD6BE0E222816CA100C1AE97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6BE0E122816CA100C1AE97 /* AppDelegate.swift */; };
-		DD6BE0E422816CA100C1AE97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6BE0E322816CA100C1AE97 /* ViewController.swift */; };
 		DD6BE0E722816CA200C1AE97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD6BE0E522816CA200C1AE97 /* Main.storyboard */; };
 		DD6BE0E922816CA200C1AE97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6BE0E822816CA200C1AE97 /* Assets.xcassets */; };
 		DD6BE0EC22816CA200C1AE97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD6BE0EA22816CA200C1AE97 /* LaunchScreen.storyboard */; };
+		DD6BE0F6228186B800C1AE97 /* EntriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6BE0F5228186B800C1AE97 /* EntriesTableViewController.swift */; };
+		DD6BE0FA22819C5900C1AE97 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6BE0F922819C5900C1AE97 /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B3767D1AB58F637DE524C914 /* Pods-Binet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Binet.debug.xcconfig"; path = "Target Support Files/Pods-Binet/Pods-Binet.debug.xcconfig"; sourceTree = "<group>"; };
+		D05A4760D8C6D108B67554E6 /* Pods_Binet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Binet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3588D3A3C7CB878C82EA8D1 /* Pods-Binet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Binet.release.xcconfig"; path = "Target Support Files/Pods-Binet/Pods-Binet.release.xcconfig"; sourceTree = "<group>"; };
+		DD53EBCE2295765100A93C4B /* NewEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEntryViewController.swift; sourceTree = "<group>"; };
+		DD53EBD02295993F00A93C4B /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
 		DD6BE0DE22816CA100C1AE97 /* Binet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Binet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6BE0E122816CA100C1AE97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DD6BE0E322816CA100C1AE97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DD6BE0E622816CA200C1AE97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD6BE0E822816CA200C1AE97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD6BE0EB22816CA200C1AE97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD6BE0ED22816CA200C1AE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD6BE0F5228186B800C1AE97 /* EntriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EntriesTableViewController.swift; path = /Users/vadim/Desktop/Apps/Binet/Binet/EntriesTableViewController.swift; sourceTree = "<absolute>"; };
+		DD6BE0F922819C5900C1AE97 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIManager.swift; path = /Users/vadim/Desktop/Apps/Binet/Binet/APIManager.swift; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C699400C1427146D3F87E534 /* Pods_Binet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06AAD6D223E159E6925F52A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3767D1AB58F637DE524C914 /* Pods-Binet.debug.xcconfig */,
+				D3588D3A3C7CB878C82EA8D1 /* Pods-Binet.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		708E4D833BFC83700139DC3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D05A4760D8C6D108B67554E6 /* Pods_Binet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DD6BE0D522816CA100C1AE97 = {
 			isa = PBXGroup;
 			children = (
 				DD6BE0E022816CA100C1AE97 /* Binet */,
-				DD6BE0DF22816CA100C1AE97 /* Products */,
+				06AAD6D223E159E6925F52A3 /* Pods */,
+				708E4D833BFC83700139DC3B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,13 +78,18 @@
 				DD6BE0DE22816CA100C1AE97 /* Binet.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		DD6BE0E022816CA100C1AE97 /* Binet */ = {
 			isa = PBXGroup;
 			children = (
 				DD6BE0E122816CA100C1AE97 /* AppDelegate.swift */,
-				DD6BE0E322816CA100C1AE97 /* ViewController.swift */,
+				DD6BE0F922819C5900C1AE97 /* APIManager.swift */,
+				DD6BE0F5228186B800C1AE97 /* EntriesTableViewController.swift */,
+				DD53EBCE2295765100A93C4B /* NewEntryViewController.swift */,
+				DD53EBD02295993F00A93C4B /* EntryViewController.swift */,
+				DD6BE0DF22816CA100C1AE97 /* Products */,
 				DD6BE0E522816CA200C1AE97 /* Main.storyboard */,
 				DD6BE0E822816CA200C1AE97 /* Assets.xcassets */,
 				DD6BE0EA22816CA200C1AE97 /* LaunchScreen.storyboard */,
@@ -71,9 +105,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD6BE0F022816CA200C1AE97 /* Build configuration list for PBXNativeTarget "Binet" */;
 			buildPhases = (
+				670CB17CE0096801CB8E347A /* [CP] Check Pods Manifest.lock */,
 				DD6BE0DA22816CA100C1AE97 /* Sources */,
 				DD6BE0DB22816CA100C1AE97 /* Frameworks */,
 				DD6BE0DC22816CA100C1AE97 /* Resources */,
+				B50025FA9098F18CA5B9EA33 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +166,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		670CB17CE0096801CB8E347A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Binet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B50025FA9098F18CA5B9EA33 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Binet/Pods-Binet-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Binet/Pods-Binet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DD6BE0DA22816CA100C1AE97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD6BE0E422816CA100C1AE97 /* ViewController.swift in Sources */,
+				DD6BE0F6228186B800C1AE97 /* EntriesTableViewController.swift in Sources */,
+				DD53EBD12295993F00A93C4B /* EntryViewController.swift in Sources */,
+				DD6BE0FA22819C5900C1AE97 /* APIManager.swift in Sources */,
+				DD53EBCF2295765100A93C4B /* NewEntryViewController.swift in Sources */,
 				DD6BE0E222816CA100C1AE97 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +368,7 @@
 		};
 		DD6BE0F122816CA200C1AE97 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3767D1AB58F637DE524C914 /* Pods-Binet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +387,7 @@
 		};
 		DD6BE0F222816CA200C1AE97 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3588D3A3C7CB878C82EA8D1 /* Pods-Binet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
